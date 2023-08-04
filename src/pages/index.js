@@ -10,7 +10,6 @@ const HomePage = () => {
         <title>Next Auth</title>
       </Head>
       <h1 style={{ textAlign: "center", marginTop: "10%" }}>Welcome To Next Auth Home Page
-        <h2 style={{ textAlign: "center", marginTop: "10%", color: 'blue' }}>this is Other update</h2>
       </h1>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Avatar size={96} src={session?.user?.image} />

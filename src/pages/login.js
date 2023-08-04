@@ -13,10 +13,10 @@ const LoginPage = () => {
         <h3>LOGIN</h3>
         <div className={styles.social_icons}>
           <GoogleOutlined onClick={() => signIn("google", {
-            callbackUrl: "http:next-auth-sigma-ochre.vercel.app/",
+            callbackUrl: "http://localhost:3000/",
           })} />
           <GithubOutlined onClick={() => signIn("github", {
-            callbackUrl: "http:next-auth-sigma-ochre.vercel.app/",
+            callbackUrl: "http://localhost:3000/",
           })} />
         </div>
         <hr />
